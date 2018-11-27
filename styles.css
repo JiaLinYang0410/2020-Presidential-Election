@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+h1{ 
+    text-shadow: 3px 2px #B2FDFF;
+    font-size: 70px;
+}
+.columns {
+    display: flex;
+} 
+.header {
+    height: 200px;
+    background-image: url("http://images6.fanpop.com/image/photos/39500000/Jungkook-Young-Forever-zeppie-39519080-500-212.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+img {
+    width: 200px;
+    border-radius: 50%;
+    border: solid lightblue 5px;
+    margin: 10px;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-image: url("https://i.pinimg.com/236x/53/40/7d/53407df92b1c012eb27a2969c3a2fb53.jpg");
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+p{
+    font-size: 30px;
+}
+a{
+    color: #FFA1D4;
+}
+a:hover{
+    color: #E292F2;
+}
+.donate {
+    background-image: url("https://pbs.twimg.com/media/DkOD4O2VAAAwXNa.jpg");
+    width: 85%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: lightblue;
+    color: white;
+    border-radius: 10px;
+    border: solid white 3px;
+}
+button:hover{
+    background-color: #FFA1D4;
+}
+.gif{
+    width: 500px;
+}
+.footer {
+    background-image: url("https://66.media.tumblr.com/0cc7feb544259e9d3b0810324ca4fb93/tumblr_inline_olhcjoeLS21t2md1d_540.gif");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
